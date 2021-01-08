@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* --- 親要素 ------------------------ by webparts.cman.jp */
+.imgArea {
+  display    : inline-block;
+  position   : relative;
+  padding    : 0
+}
+ /* --- 文字BOX(子要素) ------------------ by webparts.cman.jp */
+.over {
+  position   : absolute;                   /* 親要素からの絶対位置 */
+  box-sizing : border-box;
+  white-space: nowrap;                     /* 折返しなし */
+  display    : block;                      /* ブロック要素にする */
+  width      : 100%;                       /* 親要素の幅に合わせる */
+  color      : rgba(64, 64, 255, 0.80);    /* 文字色（透明度） */
+  background : rgba(255, 255, 255, 0.50);  /* 背景色（透明度） */
+  top        : 50%;                        /* 親要素からの上位置 */
+  left       : 0;                          /* 親要素からの左位置 */
+  text-align : center;                     /* 文字位置 */
+  transform  : translateY(-50%);           /* 文字BOXの位置ずらし */
+  padding    : 10px;                       /* BOX内の余白 */
+  font-size  : 30pt;                       /* 文字サイズ */
+  font-weight: bold;                       /* 太字 */
+  line-height: 1em;                        /* 1行の高さ */
+}
+
+/* by webparts.cman.jp */
+.outline-white {
+  letter-spacing : 1px;                /* 文字間 */
+  text-shadow    : 
+       1px  1px 1px #ffffff,
+      -1px  1px 1px #ffffff,
+       1px -1px 1px #ffffff,
+      -1px -1px 1px #ffffff,
+       1px  0px 1px #ffffff,
+       0px  1px 1px #ffffff,
+      -1px  0px 1px #ffffff,
+       0px -1px 1px #ffffff;        /* 文字の影 */
+}
+
+.outline-light-orange {
+  letter-spacing : 1px;                /* 文字間 */
+  text-shadow    : 
+       1px  1px 1px #ffeedd,
+      -1px  1px 1px #ffeedd,
+       1px -1px 1px #ffeedd,
+      -1px -1px 1px #ffeedd,
+       1px  0px 1px #ffeedd,
+       0px  1px 1px #ffeedd,
+      -1px  0px 1px #ffeedd,
+       0px -1px 1px #ffeedd;        /* 文字の影 */
+}
+
+.outline-dark-gray {
+  letter-spacing : 1px;                /* 文字間 */
+  text-shadow    : 
+       1px  1px 1px #444444,
+      -1px  1px 1px #444444,
+       1px -1px 1px #444444,
+      -1px -1px 1px #444444,
+       1px  0px 1px #444444,
+       0px  1px 1px #444444,
+      -1px  0px 1px #444444,
+       0px -1px 1px #444444;        /* 文字の影 */
+}
+
+body {
+    background-image: url(../image/background_pattern_new.jpg);
+}
+
+h1 {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  background-color: rgba(234, 201, 151);
+  border-left: solid 10px #aa4302;/*左線*/
+  border-bottom: solid 3px #d29b64;/*下線*/
+}
+
+.no-break {
+     margin-bottom: 0em;
+}
+.large-break {
+     margin-bottom: 2em;
+}
+
+.text-strike {
+    text-decoration: line-through;
+}
+
+p {
+    text-indent: 1em;
+}
+
+
+/* カラー集 */
+.bg-light-orange-75 {
+    background-color: rgba(234, 201, 151, 75%);
+}
+
+.bg-light-brown-75 {
+    background-color: rgba(170, 137, 87, 75%);
+}
+
+.light-brown-75 {
+    color: rgba(202, 170, 119, 75%);
+}
+
+.light-orange-75 {
+    color: rgba(170, 137, 87, 75%);
+}
+
+.light-orange {
+    color: rgba(234, 201, 151, 1);
+}
+
+.oswald {
+    font-family: 'Fredoka One', cursive;
+}
