@@ -25,6 +25,25 @@
   line-height: 1em;                        /* 1行の高さ */
 }
 
+.over-sm {
+  position   : absolute;                   /* 親要素からの絶対位置 */
+  box-sizing : border-box;
+  white-space: nowrap;                     /* 折返しなし */
+  display    : block;                      /* ブロック要素にする */
+  width      : 100%;                       /* 親要素の幅に合わせる */
+  color      : rgba(64, 64, 255, 0.80);    /* 文字色（透明度） */
+  background : rgba(255, 255, 255, 0.50);  /* 背景色（透明度） */
+  top        : 50%;                        /* 親要素からの上位置 */
+  left       : 0;                          /* 親要素からの左位置 */
+  text-align : center;                     /* 文字位置 */
+  transform  : translateY(-50%);           /* 文字BOXの位置ずらし */
+  padding    : 10px;                       /* BOX内の余白 */
+  font-size  : 50pt;                       /* 文字サイズ */
+  font-weight: bold;                       /* 太字 */
+  line-height: 1em;                        /* 1行の高さ */
+}
+
+
 /* by webparts.cman.jp */
 .outline-white {
   letter-spacing : 1px;                /* 文字間 */
@@ -89,6 +108,11 @@ h1 {
 
 p {
     text-indent: 1em;
+}
+
+.text-size-sm {
+    font-size: 2rem;
+    line-height: 1.25em;
 }
 
 
