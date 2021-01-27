@@ -38,9 +38,31 @@
   text-align : center;                     /* 文字位置 */
   transform  : translateY(-50%);           /* 文字BOXの位置ずらし */
   padding    : 10px;                       /* BOX内の余白 */
-  font-size  : 50pt;                       /* 文字サイズ */
+  font-size  : 60pt;                       /* 文字サイズ */
   font-weight: bold;                       /* 太字 */
   line-height: 1em;                        /* 1行の高さ */
+}
+
+.over-left {
+  position   : absolute;                   /* 親要素からの絶対位置 */
+  box-sizing : border-box;
+  white-space: nowrap;                     /* 折返しなし */
+  display    : block;                      /* ブロック要素にする */
+  width      : 100%;                       /* 親要素の幅に合わせる */
+  color      : rgba(64, 64, 255, 0.80);    /* 文字色（透明度） */
+  top        : 50%;                        /* 親要素からの上位置 */
+  left       : 0;                          /* 親要素からの左位置 */
+  text-align : left;                     /* 文字位置 */
+  transform  : translateY(-50%);           /* 文字BOXの位置ずらし */
+  padding    : 10px;                       /* BOX内の余白 */
+  font-size  : 16pt;                       /* 文字サイズ */
+  font-weight: bold;                       /* 太字 */
+  line-height: 1em;                        /* 1行の高さ */
+}
+
+
+.material-icons.size-64 {
+  font-size: 64px;
 }
 
 
@@ -96,23 +118,28 @@ h1 {
 }
 
 .no-break {
-     margin-bottom: 0em;
+  margin-bottom: 0em;
 }
 .large-break {
-     margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .text-strike {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 p {
-    text-indent: 1em;
+  text-indent: 1em;
 }
 
 .text-size-sm {
-    font-size: 2rem;
-    line-height: 1.25em;
+  font-size: 2.5rem;
+  line-height: 1.75em;
+}
+
+.text-size-sm h1 {
+  font-size: 4rem;
+  line-height: 1.5em;
 }
 
 

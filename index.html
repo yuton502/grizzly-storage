@@ -20,12 +20,22 @@
 <body>
  
     <!-- 携帯用 -->
-    <header class="pattern-diagonal-stripes-md bg-dark text-secondary mb-5 mt-3 mr-3 ml-3 d-lg-none d-block">
+    <header class="pattern-diagonal-stripes-md sticky-top bg-dark text-secondary mb-5 mt-3 mr-3 ml-3 d-lg-none d-block">
         <div class="imgArea">
-            <img src="image/tenma.png" width="100%" height="100" style="object-fit: cover; object-position: 0% 11.5%">
+            <img src="image/tenma.png" width="100%" height="120" style="object-fit: cover; object-position: 0% 11.5%">
             <p class="over-sm outline-white text-danger oswald">- Grizzly Storage -</p>
+            <a class="over-left outline-white text-danger oswald" data-toggle="collapse" href="#menu-bar" aria-expanded="false" aria-controls="menu-bar"><span class="material-icons size-64">view_headline</span></a>
         </div>
+        <div class="collapse" id="menu-bar">
+            <div class="outline-white text-secondary text-size-sm">
+                <ul>
+                    <li><a href="index.html" class="text-secondary">ホーム</a></li>
+                    <li><a href="#!" class="text-secondary">リンク集</a></li>
+                </ul>
+            </div>
+        </div>    
     </header>
+
     
     <header class="pattern-diagonal-stripes-md bg-dark text-secondary mb-5 mt-3 mr-3 ml-3 d-lg-block d-none">
         <div class="imgArea">
@@ -35,9 +45,9 @@
     </header>
 
     <!-- 携帯用 -->
-    <div class="container-fluid d-lg-none d-block text-size-sm"> 
-        <div class="row text-white">
-            <div class="col-11 outline-dark-gray bg-light-orange-75 border border-dark">
+    <div class="w-100 container-fluid d-lg-none d-block text-size-sm"> 
+        <div class="row no-gutters text-white">
+            <div class="outline-dark-gray bg-light-orange-75 border border-dark">
                 <br>
                 <h1>はじめに</h1><br>
                 <p class="no-break">みなさんこんにちは。</p>
@@ -51,11 +61,6 @@
                 <p class="large-break">ちなみに天間くんにはこのページのイメージキャラクターになっていただきました（<span class="text-strike">他の子がほとんど描けないとは言わない</span>）。ホームページの名前もそれっぽくして、完璧ですね。</p>
                 
                 <p>というわけで、ホームページはこちらに永住予定です。どうぞこのホームページを見尽くしてあげてください。</p>
-            </div>
-            <div class="col-1 pattern-cross-dots-lg bg-light-brown-75 light-orange-75 border border-dark">
-                <div class="text-white outline-dark-gray">
-                    aaaa
-                </div>
             </div>
         </div>
     </div>
@@ -79,7 +84,10 @@
             </div>
             <div class="col-lg-3 pattern-cross-dots-lg bg-light-brown-75 light-orange-75 border border-dark">
                 <div class="text-white outline-dark-gray">
-                    aaaa
+                    <ul>
+                        <li><a href="index.html" class="text-white">ホーム</a></li>
+                        <li><a href="#!" class="text-white">リンク集</a></li>
+                    </ul>       
                 </div>
             </div>
         </div>
