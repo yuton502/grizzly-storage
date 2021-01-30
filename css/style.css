@@ -131,11 +131,18 @@ h1 {
   border-bottom: solid 3px #d29b64;/*下線*/
 }
 
+
 .no-break {
   margin-bottom: 0em;
 }
+.d-block .normal-break {
+  margin-bottom: 2em;
+}
 .large-break {
   margin-bottom: 2em;
+}
+.d-block .large-break {
+  margin-bottom: 3em;
 }
 
 .text-strike {
@@ -145,6 +152,7 @@ h1 {
 p {
   text-indent: 1em;
 }
+
 
 .text-size-sm {
   font-size: 2.5rem;
@@ -162,8 +170,16 @@ p {
     background-color: rgba(234, 201, 151, 75%);
 }
 
+.bg-light-orange {
+  background-color: rgba(234, 201, 151, 1);
+}
+
 .bg-light-brown-75 {
     background-color: rgba(170, 137, 87, 75%);
+}
+
+.bg-light-brown {
+  background-color: rgba(170, 137, 87, 75%);
 }
 
 .light-brown-75 {
