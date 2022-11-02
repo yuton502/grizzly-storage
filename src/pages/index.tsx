@@ -1,193 +1,211 @@
 import * as React from "react"
-import type { HeadFC } from "gatsby"
+import { HeadFC, Link } from "gatsby"
+import { Button, ButtonGroup, Col, Container, Row, ThemeProvider, Stack, Table, Card, CardGroup, Carousel, Popover, Dropdown, ListGroup, Tab, ListGroupItem } from "react-bootstrap";
+import Header from "../parts/header";
+import tex from "../images/background_pattern_new.jpg"
+import { FaUser } from "@react-icons/all-files/fa/FaUser"
+import { BiLink } from "@react-icons/all-files/bi/BiLink"
+import { SiTwitter } from "@react-icons/all-files/si/SiTwitter"
+import { SiYoutube } from "@react-icons/all-files/si/SiYoutube"
+import { SiNiconico } from "@react-icons/all-files/si/SiNiconico"
+import { SiPixiv } from "@react-icons/all-files/si/SiPixiv"
+import { SiGithub } from "@react-icons/all-files/si/SiGithub"
+import { GiFeather } from "@react-icons/all-files/gi/GiFeather"
+import { BsBoxArrowUpRight } from "@react-icons/all-files/bs/BsBoxArrowUpRight"
+import CardHeader from "react-bootstrap/esm/CardHeader";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import styled from "@emotion/styled";
 
-const pageStyles = {
+// styles
+const pageStyles: React.CSSProperties = {
   color: "#232129",
-  padding: 96,
+  padding: "0%",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const doclistStyles = {
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
+
+const changeFont: React.CSSProperties = {
+  fontFamily: "Fredoka One, Impact, sans-serif"
 }
 
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
+const center: React.CSSProperties = {
+  textAlign: "center"
 }
 
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  display: `inline-block`,
-  marginBottom: 24,
-  marginRight: 12,
+const paddingPosition: React.CSSProperties = {
+  padding: "0% 10% 50px"
 }
 
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
+const paddingNarrowPosition: React.CSSProperties = {
+  padding: "0% 20% 50px"
 }
 
-const docLinks = [
-  {
-    text: "TypeScript Documentation",
-    url: "https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/",
-    color: "#8954A8",
-  },
-  {
-    text: "GraphQL Typegen Documentation",
-    url: "https://www.gatsbyjs.com/docs/how-to/local-development/graphql-typegen/",
-    color: "#8954A8",
-  }
-]
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative" as "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
+const textOnImage: React.CSSProperties = {
+  backgroundImage: `url(${tex})`,
+  height: '240px',
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  padding: "48px 5%"
 }
 
-const links = [
+const iconOnSource: React.CSSProperties = {
+  position: "absolute"
+}
+const iconOnVictom: React.CSSProperties = {
+  position: "relative"
+}
+
+const popover = (
+  <Popover id="popover-basic">
+    <Popover.Header as="h3">Popover right</Popover.Header>
+    <Popover.Body>
+      And here's some <strong>amazing</strong> content. It's very engaging.
+      right?
+    </Popover.Body>
+  </Popover>
+);
+
+const linkList = [
   {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
+    key: "#link1",
+    url: "https://twitter.com/yuton502",
+    button: <SiTwitter size={35}/>,
+    text: <p>
+      　毎日つぶやいています。<br />
+      　特にジャンルとかは決めておらず、色々なことをぺちゃくちゃつぶやいている感じです。
+    </p>
   },
   {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
+    key: "#link2",
+    url: "https://www.youtube.com/channel/UC9xg0XqDwkZPl4ERET4_wjw?view_as=subscriber",
+    button: <SiYoutube size={35}/>,
+    text: <p>
+      　あんまり投稿はしていませんが、一応チャンネルは持っています。<br />
+      　投稿したい！っていう気持ちになること自体が珍しいので、ほとんど投稿はしていません。限定公開ならいっぱい出してるんですけどね。
+    </p>
   },
   {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
+    key: "#link3",
+    url: "https://www.nicovideo.jp/user/30385466",
+    button: <SiNiconico size={35}/>,
+    text: <p>
+      　こちらもほとんど投稿はしていません。<br />
+      　めちゃくちゃ出しっぱなしの動画が投稿されていますが、続きも出す予定はないかな、と。
+    </p>
   },
   {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
+    key: "#link4",
+    url: "https://www.pixiv.net/member.php?id=12254272",
+    button: <SiPixiv size={35}/>,
+    text: <p>
+      　専ら絵を投稿しています。たまに小説も出します。<br />
+      　ケモホモ題材が多いですが、一番好きな界隈に辿り着いたのでこれ以上変化することはないかなーと感じています。
+    </p>
   },
   {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
+    key: "#link5",
+    url: "http://hobbynote-yuton502.blog.jp/",
+    button: <GiFeather size={35}/>,
+    text: <p>
+      　勢いで始めたブログ。Twitterでは語り尽くせないようなことを記事としてまとめています。<br />
+      　ただ、いかんせん更新頻度がめちゃくちゃ低いです。ほぼ文字だけなので、なんとかなると思ったんですけどね。
+    </p>
   },
   {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
+    key: "#link6",
+    url: "https://github.com/yuton502/",
+    button: <SiGithub size={35}/>,
+    text: <p>
+      　データパックとかを公開しています。<br />
+      　これが作りたい！とかは特にないんですけど、何か作れたら公開していきたいですね。
+    </p>
+  },
+  {
+    key: "#link7",
+    url: "",
+    button: <BsBoxArrowUpRight size={35}/>,
+    text: <>
+      <p>
+        その他
+      </p>
+      <ul>
+        <li><a href="https://stat.ink/@yuton502">stat.ink - yuton502</a></li>
+        <li><a href="https://twitter.com/photo_switch_yc">Twitter - ゆうとん+α@Switch用</a></li>
+        <li><a href="https://skeb.jp/@yuton502">Skeb - @yuton502</a></li>
+      </ul>
+    </>
   },
 ]
 
+// markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this page
-        update in real-time. 😎
-      </p>
-      <ul style={doclistStyles}>
-        {docLinks.map(doc => (
-          <li key={doc.url} style={docLinkStyle}>
-            <a
-              style={linkStyle}
-              href={`${doc.url}?utm_source=starter&utm_medium=ts-docs&utm_campaign=minimal-starter-ts`}
-            >
-              {doc.text}
-            </a>
-          </li>
-        ))}
-      </ul>
-      <ul style={listStyles}>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter-ts`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
-    </main>
+    <ThemeProvider
+  breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+>
+      <body>      
+        <Header />
+        <main style={pageStyles}>
+          <title>Grizzly Storage - Home</title>
+
+          <div style={textOnImage} className="text-white" >
+            <h1 style={changeFont}>
+              Grizzly Storage
+            </h1>
+            <p style={changeFont}>
+              　いろいろやってます。
+            </p>
+          </div>
+          <br />
+          <div className="justify-content-md-center  text-center">
+          <h1 style={changeFont}><FaUser size={32}/> Profile</h1>
+          </div><br />
+          <div style={paddingPosition}>
+            <p>
+              皆さんはじめまして。ゆうとんと申します。<br />
+              Nintendoのゲームだったり、太鼓の達人だったり、Minecraftなどを遊んでいたりします。
+            </p>
+            <p>
+              その他にもコーディングや3Dモデリング、絵や小説なども書いてきました。Infoに詳細を載せておくので、よければご覧ください。
+            </p>
+          </div>
+          <div className="justify-content-md-center  text-center">
+            <h1 style={changeFont}><BiLink size={32} /> Links</h1>
+          </div><br />
+          
+          <div style={paddingPosition}>
+            <p>
+              アイコンを直接押すと外部リンクへ飛びます。<br />
+              外側を押すと説明が出ます。
+            </p>
+            <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
+              <Row>
+                <Col xs={5} sm={3}>
+                  <ListGroup>
+                    {linkList.map((val) => 
+                      <ListGroupItem action key={val.key} href={val.key}>
+                        <Button variant="outline-primary" id="dropdown-split-basic" href={val.url} className="bg-white text-primary" >{val.button}</Button>
+                      </ListGroupItem>
+                    )}                   
+                  </ListGroup>
+                </Col>
+                <Col xs={7} sm={9}>
+                  <Tab.Content>
+                    {linkList.map((val) =>
+                      <Tab.Pane eventKey={val.key} key={val.key}>
+                        {val.text}
+                      </Tab.Pane>
+                    )}     
+                  </Tab.Content>
+                </Col>
+              </Row>
+            </Tab.Container>
+          </div>
+        </main>
+      </body>
+    </ThemeProvider>
   )
 }
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <title>Grizzly Storage - Home</title>
