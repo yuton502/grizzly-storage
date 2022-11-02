@@ -69,64 +69,81 @@ const linkList = [
     key: "#link1",
     url: "https://twitter.com/yuton502",
     button: <SiTwitter size={35}/>,
-    text: <p>
-      　毎日つぶやいています。<br />
-      　特にジャンルとかは決めておらず、色々なことをぺちゃくちゃつぶやいている感じです。
-    </p>
+    text: <>
+      <h3>Twitter</h3>
+      <hr />
+      <p>
+        　毎日つぶやいています。<br />
+        　特にジャンルとかは決めておらず、色々なことをぺちゃくちゃつぶやいている感じです。
+      </p></>
   },
   {
     key: "#link2",
     url: "https://www.youtube.com/channel/UC9xg0XqDwkZPl4ERET4_wjw?view_as=subscriber",
     button: <SiYoutube size={35}/>,
-    text: <p>
-      　あんまり投稿はしていませんが、一応チャンネルは持っています。<br />
-      　投稿したい！っていう気持ちになること自体が珍しいので、ほとんど投稿はしていません。限定公開ならいっぱい出してるんですけどね。
-    </p>
+    text: <>
+      <h3>Youtube</h3>
+      <hr />
+      <p>
+        　あんまり投稿はしていませんが、一応チャンネルは持っています。<br />
+        　投稿したい！っていう気持ちになること自体が珍しいので、ほとんど投稿はしていません。限定公開ならいっぱい出してるんですけどね。
+      </p></>
   },
   {
     key: "#link3",
     url: "https://www.nicovideo.jp/user/30385466",
     button: <SiNiconico size={35}/>,
-    text: <p>
-      　こちらもほとんど投稿はしていません。<br />
-      　めちゃくちゃ出しっぱなしの動画が投稿されていますが、続きも出す予定はないかな、と。
-    </p>
+    text: <>
+      <h3>niconico</h3>
+      <hr />
+      <p>
+        　こちらもほとんど投稿はしていません。<br />
+        　めちゃくちゃ出しっぱなしの動画が投稿されていますが、続きも出す予定はないかな、と。
+      </p></>
   },
   {
     key: "#link4",
     url: "https://www.pixiv.net/member.php?id=12254272",
     button: <SiPixiv size={35}/>,
-    text: <p>
-      　専ら絵を投稿しています。たまに小説も出します。<br />
-      　ケモホモ題材が多いですが、一番好きな界隈に辿り着いたのでこれ以上変化することはないかなーと感じています。
-    </p>
+    text: <>
+      <h3>Pixiv</h3>
+      <hr />
+      <p>
+        　専ら絵を投稿しています。たまに小説も出します。<br />
+        　ケモホモ題材が多いですが、一番好きな界隈に辿り着いたのでこれ以上変化することはないかなーと感じています。
+      </p></>
   },
   {
     key: "#link5",
     url: "http://hobbynote-yuton502.blog.jp/",
     button: <GiFeather size={35}/>,
-    text: <p>
-      　勢いで始めたブログ。Twitterでは語り尽くせないようなことを記事としてまとめています。<br />
-      　ただ、いかんせん更新頻度がめちゃくちゃ低いです。ほぼ文字だけなので、なんとかなると思ったんですけどね。
-    </p>
+    text: <>
+      <h3>Livedoorブログ</h3>
+      <hr />
+      <p>
+        　勢いで始めたブログ。Twitterでは語り尽くせないようなことを記事としてまとめています。<br />
+        　ただ、いかんせん更新頻度がめちゃくちゃ低いです。ほぼ文字だけなので、なんとかなると思ったんですけどね。
+      </p></>
   },
   {
     key: "#link6",
     url: "https://github.com/yuton502/",
     button: <SiGithub size={35}/>,
-    text: <p>
-      　データパックとかを公開しています。<br />
-      　これが作りたい！とかは特にないんですけど、何か作れたら公開していきたいですね。
-    </p>
+    text: <>
+      <h3>Github</h3>
+      <hr />
+      <p>
+        　データパックとかを公開しています。<br />
+        　これが作りたい！とかは特にないんですけど、何か作れたら公開していきたいですね。
+      </p></>
   },
   {
     key: "#link7",
     url: "",
     button: <BsBoxArrowUpRight size={35}/>,
     text: <>
-      <p>
-        その他
-      </p>
+      <h3>その他</h3>
+      <hr />
       <ul>
         <li><a href="https://stat.ink/@yuton502">stat.ink - yuton502</a></li>
         <li><a href="https://twitter.com/photo_switch_yc">Twitter - ゆうとん+α@Switch用</a></li>

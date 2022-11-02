@@ -103,7 +103,7 @@ const InfoPage = () => {
               タブを押すと説明が出てきます。
             </p>
             <Tabs
-              defaultActiveKey="minecraft"
+              defaultActiveKey="mario"
               id="justify-tab-example"
               className="mb-3"
               fill
