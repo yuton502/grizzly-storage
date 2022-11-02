@@ -1,6 +1,7 @@
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
+  pathPrefix: "/grizzly-storage",
   siteMetadata: {
     title: `Grizzly Storage`,
     siteUrl: `https://www.yourdomain.tld`
