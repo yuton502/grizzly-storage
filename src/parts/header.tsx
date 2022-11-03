@@ -2,18 +2,8 @@ import * as React from "react";
 import tenma from "../images/tenma.png";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { text } from "stream/consumers";
 import { Link } from "gatsby";
-
-const pageStyle: React.CSSProperties = {
-  color: "#232129",
-  padding: "0%",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const imageStyle: React.CSSProperties = {
-  objectFit: "cover",
-  objectPosition: "0% 11.5%"
-}
+import { pageStyle } from "./styles";
 
 const textOnImage: React.CSSProperties = {
   backgroundImage: `url(${tenma})`,
@@ -23,10 +13,6 @@ const textOnImage: React.CSSProperties = {
   // padding: "48px 5%"
 }
 
-const ulStyle: React.CSSProperties = {
-  listStyle: "none"
-}
-
 const Header: React.FC = () => {
   return (
     <header className="bg-black" style={textOnImage}>
@@ -34,7 +20,7 @@ const Header: React.FC = () => {
         <Navbar expand="md" variant="dark">
           <Navbar.Toggle aria-controls="navbarResponsive"  className="ms-auto"/>
           <Navbar.Collapse id="navbarResponsive">
-            <Nav as="ul" className="me-auto">
+            <Nav as="ul" className="ms-2">
               <Nav.Item as="li">
                 <Link to="/" className="nav-link ms-2" activeClassName="active">Home</Link>
               </Nav.Item>

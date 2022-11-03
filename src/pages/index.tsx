@@ -1,8 +1,7 @@
 import * as React from "react"
-import { HeadFC, Link } from "gatsby"
-import { Button, ButtonGroup, Col, Container, Row, ThemeProvider, Stack, Table, Card, CardGroup, Carousel, Popover, Dropdown, ListGroup, Tab, ListGroupItem } from "react-bootstrap";
+import { HeadFC} from "gatsby"
+import { Button, Col, Row, ListGroup, Tab, ListGroupItem } from "react-bootstrap";
 import Header from "../parts/header";
-import tex from "../images/background_pattern_new.jpg"
 import { FaUser } from "@react-icons/all-files/fa/FaUser"
 import { BiLink } from "@react-icons/all-files/bi/BiLink"
 import { SiTwitter } from "@react-icons/all-files/si/SiTwitter"
@@ -12,57 +11,10 @@ import { SiPixiv } from "@react-icons/all-files/si/SiPixiv"
 import { SiGithub } from "@react-icons/all-files/si/SiGithub"
 import { GiFeather } from "@react-icons/all-files/gi/GiFeather"
 import { BsBoxArrowUpRight } from "@react-icons/all-files/bs/BsBoxArrowUpRight"
-import CardHeader from "react-bootstrap/esm/CardHeader";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styled from "@emotion/styled";
+import MainTitle from "../parts/main_title";
+import { pageStyle, changeFont, paddingPosition } from "../parts/styles";
 
-// styles
-const pageStyles: React.CSSProperties = {
-  color: "#232129",
-  padding: "0%",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-
-const changeFont: React.CSSProperties = {
-  fontFamily: "Fredoka One, Impact, sans-serif"
-}
-
-const center: React.CSSProperties = {
-  textAlign: "center"
-}
-
-const paddingPosition: React.CSSProperties = {
-  padding: "0% 10% 50px"
-}
-
-const paddingNarrowPosition: React.CSSProperties = {
-  padding: "0% 20% 50px"
-}
-
-const textOnImage: React.CSSProperties = {
-  backgroundImage: `url(${tex})`,
-  height: '240px',
-  backgroundPosition: 'center',
-  backgroundSize: 'cover',
-  padding: "48px 5%"
-}
-
-const iconOnSource: React.CSSProperties = {
-  position: "absolute"
-}
-const iconOnVictom: React.CSSProperties = {
-  position: "relative"
-}
-
-const popover = (
-  <Popover id="popover-basic">
-    <Popover.Header as="h3">Popover right</Popover.Header>
-    <Popover.Body>
-      And here's some <strong>amazing</strong> content. It's very engaging.
-      right?
-    </Popover.Body>
-  </Popover>
-);
 
 const linkList = [
   {
@@ -156,73 +108,62 @@ const linkList = [
 // markup
 const IndexPage = () => {
   return (
-    <ThemeProvider
-  breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
->
-      <body>      
-        <Header />
-        <main style={pageStyles}>
-          <title>Grizzly Storage - Home</title>
+    <body>      
+      <Header />
+      <main style={pageStyle}>
+        <title>Home - Grizzly Storage</title>
 
-          <div style={textOnImage} className="text-white" >
-            <h1 style={changeFont}>
-              Grizzly Storage
-            </h1>
-            <p style={changeFont}>
-              　いろいろやってます。
-            </p>
-          </div>
-          <br />
-          <div className="justify-content-md-center  text-center">
-          <h1 style={changeFont}><FaUser size={32}/> Profile</h1>
-          </div><br />
-          <div style={paddingPosition}>
-            <p>
-              皆さんはじめまして。ゆうとんと申します。<br />
-              Nintendoのゲームだったり、太鼓の達人だったり、Minecraftなどを遊んでいたりします。
-            </p>
-            <p>
-              その他にもコーディングや3Dモデリング、絵や小説なども書いてきました。Infoに詳細を載せておくので、よければご覧ください。
-            </p>
-          </div>
-          <div className="justify-content-md-center  text-center">
-            <h1 style={changeFont}><BiLink size={32} /> Links</h1>
-          </div><br />
-          
-          <div style={paddingPosition}>
-            <p>
-              アイコンを直接押すと外部リンクへ飛びます。<br />
-              外側を押すと説明が出ます。
-            </p>
-            <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
-              <Row>
-                <Col xs={5} sm={3}>
-                  <ListGroup>
-                    {linkList.map((val) => 
-                      <ListGroupItem action key={val.key} href={val.key}>
-                        <Button variant="outline-primary" id="dropdown-split-basic" href={val.url} className="bg-white text-primary" >{val.button}</Button>
-                      </ListGroupItem>
-                    )}                   
-                  </ListGroup>
-                </Col>
-                <Col xs={7} sm={9}>
-                  <Tab.Content>
-                    {linkList.map((val) =>
-                      <Tab.Pane eventKey={val.key} key={val.key}>
-                        {val.text}
-                      </Tab.Pane>
-                    )}     
-                  </Tab.Content>
-                </Col>
-              </Row>
-            </Tab.Container>
-          </div>
-        </main>
-      </body>
-    </ThemeProvider>
+        <MainTitle />
+        <br />
+        <div className="justify-content-md-center  text-center">
+        <h1 style={changeFont}><FaUser size={32}/> Profile</h1>
+        </div><br />
+        <div style={paddingPosition}>
+          <p>
+            皆さんはじめまして。ゆうとんと申します。<br />
+            Nintendoのゲームだったり、太鼓の達人だったり、Minecraftなどを遊んでいたりします。
+          </p>
+          <p>
+            その他にもコーディングや3Dモデリング、絵や小説なども書いてきました。Infoに詳細を載せておくので、よければご覧ください。
+          </p>
+        </div>
+        <div className="justify-content-md-center  text-center">
+          <h1 style={changeFont}><BiLink size={32} /> Links</h1>
+        </div><br />
+        
+        <div style={paddingPosition}>
+          <p>
+            アイコンを直接押すと外部リンクへ飛びます。<br />
+            外側を押すと説明が出ます。
+          </p>
+          <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
+            <Row>
+              <Col xs={5} sm={3}>
+                <ListGroup>
+                  {linkList.map((val) => 
+                    <ListGroupItem action key={val.key} href={val.key}>
+                      <Button variant="outline-primary" id="dropdown-split-basic" href={val.url} className="bg-white text-primary" >{val.button}</Button>
+                    </ListGroupItem>
+                  )}                   
+                </ListGroup>
+              </Col>
+              <Col xs={7} sm={9}>
+                <Tab.Content>
+                  {linkList.map((val) =>
+                    <Tab.Pane eventKey={val.key} key={val.key}>
+                      {val.text}
+                    </Tab.Pane>
+                  )}     
+                </Tab.Content>
+              </Col>
+            </Row>
+          </Tab.Container>
+        </div>
+      </main>
+    </body>
   )
 }
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Grizzly Storage - Home</title>
+export const Head: HeadFC = () => <title>Home - Grizzly Storage</title>
