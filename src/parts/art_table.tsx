@@ -97,7 +97,7 @@ const ArtTable = () => {
             <Figure.Image src={art.url} />
           </Figure>
           <Modal show={art === selectedItem} onHide={onCloseDialog} restoreFocus={false} size="lg">
-          <Modal.Header closeButton>No. {art.no}</Modal.Header>
+          <Modal.Header closeButton onPointerUp={onCloseDialog}>No. {art.no}</Modal.Header>
           <Modal.Body style={center}>
             <Figure.Image src={art.url} />
             <Accordion defaultActiveKey="-1" style={left}>
