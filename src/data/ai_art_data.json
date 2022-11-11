@@ -614,13 +614,13 @@
       "no": 99,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1030859638800928768/01483-2145558929-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_Bakeboy_Chunie_anthro_male_big_body_muscles_1.3.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, ((Bakeboy)), (Chunie), anthro, male, (big body), (muscles:1.3), (((detailed fluffy fur))), ((detailed face)), highlighted eyes, detailed realistic painting, solo, (((shaded))), extreme detail, ((sitting)), brown bear, (wearing short pants), (wearing trail boots), looking down, (full body) \n Negative prompt: (((human face))), ((human mouth)), deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), ((poorly drawn eye)) mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, big belly, nipples, (((animal long feet))) \n Steps: 40, Sampler: Euler a, CFG scale: 11, Seed: 2145558929, Size: 512x512, Model hash: 50ad914b, Batch size: 2, Batch pos: 1",
-      "tags": ["熊", "着衣", "靴", "タンクトップ", "ブーツ", "筋肉", "森"]
+      "tags": ["熊", "着衣", "靴", "タンクトップ", "ブーツ", "筋肉", "全身絵", "森"]
     },
     {
       "no": 100,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1031093160098660352/01536-1834373976-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_Bakeboy_Chunie_anthro_male_big_body_muscles_1.3.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, ((Bakeboy)), (Chunie), anthro, male, (big body), (muscles:1.3), (((detailed fluffy fur))), ((detailed face)), highlighted eyes, detailed realistic painting, solo, (((shaded))), extreme detail, ((sitting)), brown bear, (wearing short pants), (wearing high-cut sneakers), looking down, (full body) \n Negative prompt: (((human face))), ((human mouth)), deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), ((poorly drawn eye)) mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, big belly, nipples, clothed \n Steps: 40, Sampler: Euler a, CFG scale: 11, Seed: 1834373976, Size: 512x512, Model hash: 50ad914b",
-      "tags": ["熊", "着衣", "靴", "タンクトップ", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "着衣", "靴", "タンクトップ", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 101,
@@ -632,7 +632,7 @@
       "no": 102,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1031093983465701506/01626-1197140616-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_Bakeboy_Chunie_Ashigara_style_anthro_male_big.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, ((Bakeboy)), (Chunie), ((Ashigara style)), anthro, male, (big body), (muscles:1.3), (((detailed fluffy fur))), ((detailed face)), detailed realistic painting, solo, (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), ((sitting)) ((wearing short pants)), looking down, full body \n Negative prompt: (human face:1.5), human teeth, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), ((poorly eye)) mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, big belly, \n Steps: 40, Sampler: Euler a, CFG scale: 7.5, Seed: 1197140616, Size: 512x512, Model hash: 50ad914b",
-      "tags": ["熊", "着衣", "靴", "タンクトップ", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "着衣", "靴", "タンクトップ", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 103,
@@ -896,19 +896,19 @@
       "no": 146,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1031369758702059580/02348-1317252284-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_mu.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, (((shaded))), extreme detail, brown bear, ((wearing hawaiian shirt)), looking down, full body, in summer \n Negative prompt: (human face:1.5), (human mouth:1.5), deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), ((poorly eye)) mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, nipples, tank-top \n Steps: 40, Sampler: Euler a, CFG scale: 9, Seed: 1317252284, Size: 512x512, Model hash: 50ad914b",
-      "tags": ["熊", "着衣", "アロハシャツ", "チェックシャツ", "筋肉", "ビーチ"]
+      "tags": ["熊", "着衣", "アロハシャツ", "筋肉", "ビーチ"]
     },
     {
       "no": 147,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1031370101208916078/02379-2418508509-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_mu.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, (((shaded))), extreme detail, brown bear, ((wearing aloha shirt)), looking down, full body, in summer \n Negative prompt: (human face), (human mouth), deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), ((poorly eye)) mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, nipples, tank-top \n Steps: 40, Sampler: Euler a, CFG scale: 9, Seed: 2418508509, Size: 512x512, Model hash: 50ad914b",
-      "tags": ["熊", "着衣", "アロハシャツ", "チェックシャツ", "筋肉", "ビーチ"]
+      "tags": ["熊", "着衣", "アロハシャツ", "筋肉", "ビーチ"]
     },
     {
       "no": 148,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1031370198814576640/02386-2418508516-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_mu.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, (((shaded))), extreme detail, brown bear, ((wearing aloha shirt)), looking down, full body, in summer \n Negative prompt: (human face), (human mouth), deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), ((poorly eye)) mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, nipples, tank-top \n Steps: 40, Sampler: Euler a, CFG scale: 9, Seed: 2418508516, Size: 512x512, Model hash: 50ad914b",
-      "tags": ["熊", "着衣", "アロハシャツ", "チェックシャツ", "筋肉", "ビーチ"]
+      "tags": ["熊", "着衣", "アロハシャツ", "筋肉", "ビーチ"]
     },
     {
       "no": 149,
@@ -944,13 +944,13 @@
       "no": 154,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1031611970757074944/02516-2607609473-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_mus.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, (((shaded))), extreme detail, brown bear, (sitting), ((wearing sneakers)), looking down, full body \n Negative prompt: (human face), (human mouth), deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), ((poorly eye)) mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 40, Sampler: Euler a, CFG scale: 9, Seed: 2607609473, Size: 512x512, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 155,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1031612174663176232/02542-3472808131-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_mus.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, (((shaded))), extreme detail, brown bear, (sitting), ((wearing hoodie and sneakers)), looking down, full body \n Negative prompt: (human face), (human mouth), deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), ((poorly eye)) mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 40, Sampler: Euler a, CFG scale: 9, Seed: 3472808131, Size: 512x512, Model hash: 50ad914b",
-      "tags": ["熊", "着衣", "パーカー", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "着衣", "パーカー", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 156,
@@ -1382,13 +1382,13 @@
       "no": 227,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032091766926618654/03504-63919573-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing middle-cut trail sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 63919573, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 228,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032091852419117157/03510-2537665861-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 2537665861, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 229,
@@ -1436,241 +1436,241 @@
       "no": 236,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032093184936906752/03595-2438671745-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 2438671745, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 237,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032093316029882438/03600-4010234896-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010234896, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 0",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 238,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032093585711046726/03621-4010234917-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010234917, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 1",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 239,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032093796374159441/03635-4010234931-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010234931, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 240,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032093908668256296/03638-4010234934-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010234934, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 2",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 241,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032094116143693904/03652-4010234948-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010234948, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 0",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 242,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032094319118667897/03663-4010234959-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010234959, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 243,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032094682538328095/03693-4010234989-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010234989, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 1",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 244,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032094833000591401/03697-4010234993-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010234993, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 1",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 245,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032095055978168350/03710-4010235006-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010235006, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 2",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 246,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032095159501979740/03714-4010235010-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010235010, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 2",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 247,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032095450469236776/03733-4010235029-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010235029, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 1",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 248,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032095592899420211/03739-4010235035-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010235035, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 249,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032096171923083326/03776-4010235072-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010235072, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 0",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵"]
     },
     {
       "no": 250,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032096370208813146/03788-4010235084-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010235084, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 0",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 251,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032096551478235197/03796-4010235092-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010235092, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 0",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 252,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032096695821013013/03807-4010235103-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4010235103, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 253,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032472376551673866/03816-3350349533-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 3350349533, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 254,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032472467446440006/03822-3350349539-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking down \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, big belly, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 3350349539, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 255,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032472721071804417/03841-2647029611-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, solo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 2647029611, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 256,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032472882867081316/03850-2017012205-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, duo, ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 2017012205, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 257,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032473248987881503/03865-208184477-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, ((duo)), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 208184477, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 258,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032473415950532678/03878-4102785782-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 4102785782, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "全身絵", "森"]
     },
     {
       "no": 259,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032473813897723954/03908-3246941274-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 3246941274, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 260,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032473895443369994/03910-3246941276-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 3246941276, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "全身絵", "街"]
     },
     {
       "no": 261,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032474136733302814/03918-1300472992-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300472992, Size: 512x704, Model hash: 50ad914b",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "全身絵", "街"]
     },
     {
       "no": 262,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032474606755401849/03965-1300473003-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473003, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 1",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 263,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032474961375395892/03981-1300473019-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473019, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 1",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "全身絵", "街"]
     },
     {
       "no": 264,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032475302955339786/04007-1300473045-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473045, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 265,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032475973343531099/04058-1300473096-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473096, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 2",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 267,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032476053903527936/04060-1300473098-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473098, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 0",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "全身絵", "森"]
     },
     {
       "no": 268,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032476229674225754/04068-1300473106-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473106, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 0",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 269,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032477022376697856/04111-1300473149-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473149, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 270,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032477187481288804/04118-1300473156-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473156, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 2",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "全身絵", "森"]
     },
     {
       "no": 271,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032477291105755186/04123-1300473161-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473161, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "全身絵"]
     },
     {
       "no": 272,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032477440221663242/04131-1300473169-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473169, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "森"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "森"]
     },
     {
       "no": 273,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032477657629196318/04147-1300473185-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473185, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 274,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032478187273322516/04171-1300473209-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473209, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 275,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032478310195810324/04176-1300473214-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473214, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 0",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "全身絵", "街"]
     },
     {
       "no": 276,
       "url": "https://cdn.discordapp.com/attachments/1030702564783706223/1032478539389354124/04191-1300473229-upload_on_e621_by_Michael__Inessa_Garmash_Ruan_Jia_Pino_Daeni_chunie_1.3_rossciaco_1.2_anthro_male_big_body_ext.png",
       "prompt": "upload on e621, by Michael & Inessa Garmash, Ruan Jia, Pino Daeni, (chunie:1.3), (rossciaco:1.2), anthro, male, (big body), (extreme muscles:1.3), (((detailed fluffy fur))), detailed realistic painting, (((duo))), ((extreme detail)), (((shaded))), extreme detail, brown bear, ((wearing big sneaker)), looking up \n Negative prompt: human, female, deformed, blurry, bad anatomy, disfigured, ((poorly drawn face)), mutation, (mutated), extra limb, ugly, horror, out of focus, depth of field, focal blur, explict, baby, mark, watermark, sign, logo, signature, penis, tank-top \n Steps: 35, Sampler: Euler a, CFG scale: 10, Seed: 1300473229, Size: 512x704, Model hash: 50ad914b, Batch size: 4, Batch pos: 3",
-      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "街"]
+      "tags": ["熊", "パンツ", "靴", "スニーカー", "筋肉", "体格差", "全身絵", "街"]
     }
   ]
 }
