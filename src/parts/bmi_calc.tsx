@@ -1,33 +1,28 @@
 import * as React from "react"
-import { HeadFC } from "gatsby"
-import { Tab, Tabs, Badge, Form, Button } from "react-bootstrap";
-import Header from "../parts/header";
-import { AiOutlineInfoCircle } from "@react-icons/all-files/ai/AiOutlineInfoCircle"
+import { Tab, Tabs, Form, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MainTitle from "../parts/main_title";
-import { pageStyle, changeFont, noBreak, paddingPosition } from "../parts/styles"
-import { RefObject, useRef } from "react";
+import { useRef, useState, createRef } from "react";
 
 
 const BmiCalc = () => {
-  const [result, setResult] = React.useState(0.0);
-  const [type, setType] = React.useState(0);
+  const [result, setResult] = useState(0.0);
+  const [type, setType] = useState(0);
   const list = [0, 1, 2, 3, 4, 5]
-  const pows = 2.2
-  const inputs = useRef(list.map(() => React.createRef<HTMLInputElement>()));
+  const pows = 2.25
+  const inputs = useRef(list.map(() => createRef<HTMLInputElement>()));
   const onButtonClick = () => {
     if (type == 0) {
-      setResult(inputs.current[1].current?.value / Math.pow(inputs.current[0].current?.value / 100, pows));
+      setResult(Number(inputs.current[1].current?.value ?? 0) / Math.pow(Number(inputs.current[0].current?.value ?? 0) / 100, pows));
     }    
     else if (type == 1) {
-      setResult(Math.pow(inputs.current[2].current?.value / 100, pows) * inputs.current[3].current?.value);
+      setResult(Math.pow(Number(inputs.current[2].current?.value ?? 0) / 100, pows) * (Number(inputs.current[3].current?.value ?? 0)));
     }
     else if (type == 2) {
-      setResult(Math.pow(inputs.current[4].current?.value / inputs.current[5].current?.value, (1 / pows)) * 100);
+      setResult(Math.pow(Number(inputs.current[4].current?.value ?? 0) / Number(inputs.current[5].current?.value ?? 0), (1 / pows)) * 100);
     }
   };
 
-  const heightForm = (ref?: any) => {
+  const heightForm = (ref: React.RefObject<HTMLInputElement>) => {
     return (
       <Form.Group className="mb-3">
       <Form.Label>身長</Form.Label>
@@ -36,7 +31,7 @@ const BmiCalc = () => {
     )
   }
 
-  const bmiForm = (ref?: any) => {
+  const bmiForm = (ref: React.RefObject<HTMLInputElement>) => {
     return (
       <Form.Group className="mb-3">
       <Form.Label>BMI</Form.Label>
@@ -45,7 +40,7 @@ const BmiCalc = () => {
     )
   }
 
-  const weightForm = (ref: any) => {
+  const weightForm = (ref: React.RefObject<HTMLInputElement>) => {
     return (
       <Form.Group className="mb-3">
       <Form.Label>体重</Form.Label>
@@ -86,7 +81,7 @@ const BmiCalc = () => {
       fill
     >
       {tabLists.map((value, i) => 
-        <Tab eventKey={i} title={value.title} onClick={() => {setType(i)}}>
+        <Tab eventKey={i} title={value.title} onClick={() => {setType(i)}} key={i}>
           <Form>
             {value.compornent}
             <Form.Group className="mb-3">

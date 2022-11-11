@@ -1,13 +1,11 @@
 import * as React from "react"
 import { HeadFC } from "gatsby"
-import { Tab, Tabs, Badge, Form, Button } from "react-bootstrap";
 import Header from "../parts/header";
 import { AiOutlineInfoCircle } from "@react-icons/all-files/ai/AiOutlineInfoCircle"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainTitle from "../parts/main_title"
-import BmiCalc from "../parts/bmiCalc"
+import BmiCalc from "../parts/bmi_calc"
 import { pageStyle, changeFont, noBreak, paddingPosition } from "../parts/styles"
-import { useRef } from "react";
 
 
 // markup
@@ -40,7 +38,6 @@ const ExtraPage = () => {
     </body>
   )
 }
-
 
 
 export default ExtraPage
