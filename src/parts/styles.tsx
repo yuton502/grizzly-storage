@@ -23,6 +23,10 @@ export const center: React.CSSProperties = {
   textAlign: "center"
 }
 
+export const left: React.CSSProperties = {
+  textAlign: "left"
+}
+
 export const paddingPosition: React.CSSProperties = {
   padding: "0% 10% 50px"
 }

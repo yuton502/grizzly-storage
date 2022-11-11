@@ -27,7 +27,13 @@ const linkList = [
       <p>
         　毎日つぶやいています。<br />
         　特にジャンルとかは決めておらず、色々なことをぺちゃくちゃつぶやいている感じです。
-      </p></>
+      </p>
+      <ul>
+        <li><a href="https://twitter.com/search?q=%23yuton502_art">#yuton502_art</a></li>
+        <li><a href="https://twitter.com/search?q=%23yuton502_note">#yuton502_note</a></li>
+        <li><a href="https://twitter.com/search?q=%23yuton502_photo">#yuton502_photo</a></li>
+      </ul>
+      </>
   },
   {
     key: "#link2",
