@@ -28,10 +28,13 @@ const linkList = [
         　毎日つぶやいています。<br />
         　特にジャンルとかは決めておらず、色々なことをぺちゃくちゃつぶやいている感じです。
       </p>
+      <p>
+        　下記のハッシュタグは自分のツイートをまとめたものです。クリックで検索結果に飛びます。
+      </p>
       <ul>
-        <li><a href="https://twitter.com/search?q=%23yuton502_art">#yuton502_art</a></li>
-        <li><a href="https://twitter.com/search?q=%23yuton502_note">#yuton502_note</a></li>
-        <li><a href="https://twitter.com/search?q=%23yuton502_photo">#yuton502_photo</a></li>
+        <li><a href="https://twitter.com/search?q=%23yuton502_art&src=typed_query">#yuton502_art</a></li>
+        <li><a href="https://twitter.com/search?q=%23yuton502_note&src=typed_query">#yuton502_note</a></li>
+        <li><a href="https://twitter.com/search?q=%23yuton502_photo&src=typed_query">#yuton502_photo</a></li>
       </ul>
       </>
   },
