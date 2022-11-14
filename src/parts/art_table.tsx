@@ -115,7 +115,7 @@ const ArtTable = () => {
             </Accordion.Item>
             </Accordion>
           </Modal.Body>
-          <Modal.Footer>
+          <Modal.Footer onPointerUp={onCloseDialog}>
             {art.tags.map((tag) => 
               <Badge bg="primary">{tag}</Badge>
             )}
