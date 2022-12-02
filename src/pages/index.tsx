@@ -18,7 +18,7 @@ import { pageStyle, changeFont, paddingPosition } from "../parts/styles";
 
 const linkList = [
   {
-    key: "#link1",
+    key: "link1",
     url: "https://twitter.com/yuton502",
     button: <SiTwitter size={35}/>,
     text: <>
@@ -39,7 +39,7 @@ const linkList = [
       </>
   },
   {
-    key: "#link2",
+    key: "link2",
     url: "https://www.youtube.com/channel/UC9xg0XqDwkZPl4ERET4_wjw?view_as=subscriber",
     button: <SiYoutube size={35}/>,
     text: <>
@@ -51,7 +51,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "#link3",
+    key: "link3",
     url: "https://www.nicovideo.jp/user/30385466",
     button: <SiNiconico size={35}/>,
     text: <>
@@ -63,7 +63,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "#link4",
+    key: "link4",
     url: "https://www.pixiv.net/member.php?id=12254272",
     button: <SiPixiv size={35}/>,
     text: <>
@@ -75,7 +75,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "#link5",
+    key: "link5",
     url: "http://hobbynote-yuton502.blog.jp/",
     button: <GiFeather size={35}/>,
     text: <>
@@ -87,7 +87,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "#link6",
+    key: "link6",
     url: "https://github.com/yuton502/",
     button: <SiGithub size={35}/>,
     text: <>
@@ -99,7 +99,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "#link7",
+    key: "link7",
     url: "",
     button: <BsBoxArrowUpRight size={35}/>,
     text: <>
@@ -145,12 +145,12 @@ const IndexPage = () => {
             アイコンを直接押すと外部リンクへ飛びます。<br />
             外側を押すと説明が出ます。
           </p>
-          <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
+          <Tab.Container id="list-group-tabs-example" defaultActiveKey="link1">
             <Row>
               <Col xs={5} sm={3}>
                 <ListGroup>
                   {linkList.map((val) => 
-                    <ListGroupItem action key={val.key} href={val.key}>
+                    <ListGroupItem action key={val.key} eventKey={val.key}>
                       <Button variant="outline-primary" id="dropdown-split-basic" href={val.url} className="bg-white text-primary" >{val.button}</Button>
                     </ListGroupItem>
                   )}                   
