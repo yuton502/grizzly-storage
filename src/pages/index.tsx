@@ -105,10 +105,20 @@ const linkList = [
     text: <>
       <h3>その他</h3>
       <hr />
+      <h5>● SNS</h5>
       <ul>
+        <li><a href="https://pawoo.net/@yuton502">Pawoo - @yuton502</a><br />
+        Mastodonでアカウントが作りたくて作成。そんなにトゥートしないかも。</li>
+        <li><a href="https://misskey.design/@yuton502">Misskey.design - @yuton502</a><br />
+        一次創作用と聞いて作成。一次創作の話はこちらにノートすることが多くなるかもしれません。</li>
+        <li><a href="https://twitter.com/photo_switch_yc">Twitter - ゆうとん+α@Switch用</a><br />
+        Switchからの投稿用アカウント。投稿したりしてなかったりします。</li>
+        </ul>
+        <h5>● その他</h5>
+        <ul>
         <li><a href="https://stat.ink/@yuton502">stat.ink - yuton502</a></li>
-        <li><a href="https://twitter.com/photo_switch_yc">Twitter - ゆうとん+α@Switch用</a></li>
         <li><a href="https://skeb.jp/@yuton502">Skeb - @yuton502</a></li>
+        <li><a href="https://www.ikaclo.jp/users/6215/">イカクロ - ゆうとん</a></li>
       </ul>
     </>
   },
