@@ -30,50 +30,56 @@ const ArtTable = () => {
   React.useEffect(() => {
     let list: string[] = keyword.split(/\s+/)
     let translate = Arts.translations
+    //アルファベットの場合、Arts.translationsから翻訳しておく
     const translatedList: string[] = list.map((e) => {
-      if (e.match(RegExp("[a-zA-Z]+")) != null) {
-        e.toLocaleLowerCase()
+      if (e.match(/[a-zA-Z]+/)) {
         try {
-          return translate[Object.keys(translate).find((k) => k === e) ?? e] ?? e
-        }
-        catch (error) {
+          const lowerKey = e.toLowerCase();
+          return translate[lowerKey] ?? e;
+        } catch (error) {
+          return e;
         }
       }
-      return e
+      return e;
     })
     if (useRegex) {
-      let regex: RegExp;
+      //正規表現検索
       try {
-        regex = RegExp(keyword)
+        const regex = RegExp(keyword)
         setFilteredArts(Arts.data
           .filter((e: ArtData) => regex
-          .test(e.tags.join(""))
-          || keyword === ""))
+            .test(e.tags.join(""))
+              || keyword === ""))
         setIsRegexInvalid(false)
       } catch (error) {
+        //正規表現エラー
         setIsRegexInvalid(true)
       }
     }
     else {
-      let numbers: string[]
-      setFilteredArts(Arts.data
-        .filter((e: ArtData) => translatedList
-        .every((k: string) => {
-          //マイナス検索
-          if (k.match(/^\-/) != null) 
-            return !e.tags.includes(k.substring(1))
-          //ナンバー検索
-          if (k.match(/^\.[0-9]*\-[0-9]*$/) != null) {
-            numbers = k.substring(1).split("-")
-            return Number(numbers[0]) <= e.no && e.no <= Number(numbers[1])
+      //正規表現なし検索
+      const filteredData = Arts.data.filter((art: ArtData) => {
+        return translatedList.every((k: string) => {
+          // マイナス検索
+          if (k.startsWith('-')) {
+            const tagToExclude = k.substring(1);
+            return !art.tags.includes(tagToExclude);
           }
-          if (k.match(/^\.[0-9]*$/) != null)
-            return e.no == Number(k.substring(1))
-          //通常検索
-          return e.tags.includes(k)
-        })
-        || keyword === "")
-      )
+          // 範囲ナンバー検索
+          if (k.match(/^\.[0-9]*\-[0-9]*$/)) {
+            const [start, end] = k.substring(1).split('-').map(Number);
+            return start <= art.no && art.no <= end;
+          }
+          // ナンバー検索
+          if (k.match(/^\.[0-9]*$/)) {
+            const singleTargetNumber = Number(k.substring(1));
+            return art.no === singleTargetNumber;
+          }
+          // 通常検索
+          return art.tags.includes(k);
+        }) || keyword === '';
+      });
+      setFilteredArts(filteredData);
     }
   }, [keyword, useRegex])
 
@@ -105,12 +111,14 @@ const ArtTable = () => {
               <Accordion.Header>プロンプト表示</Accordion.Header>
               <Accordion.Body>
                 <>
-              {art.prompt.split(/(\n)/).map((item, index) => {
-                return (
-                  <React.Fragment key={index}>
-                    { item.match(/\n/) ? <br /> : item }
-                  </React.Fragment>)})}
-                  </>
+                  {art.prompt.split(/(\n)/).map((item, index) => {
+                    return (
+                      <React.Fragment key={index}>
+                        { item.match(/\n/) ? <br /> : item }
+                      </React.Fragment>
+                    )
+                  })}
+                </>
               </Accordion.Body>
             </Accordion.Item>
             </Accordion>

@@ -11,90 +11,57 @@ const BmiCalc = () => {
   const pows = 2.25
   const inputs = useRef(list.map(() => createRef<HTMLInputElement>()));
   const onButtonClick = () => {
-    if (type == 0) {
-      setResult(Number(inputs.current[1].current?.value ?? 0) / Math.pow(Number(inputs.current[0].current?.value ?? 0) / 100, pows));
-    }    
-    else if (type == 1) {
-      setResult(Math.pow(Number(inputs.current[2].current?.value ?? 0) / 100, pows) * (Number(inputs.current[3].current?.value ?? 0)));
-    }
-    else if (type == 2) {
-      setResult(Math.pow(Number(inputs.current[4].current?.value ?? 0) / Number(inputs.current[5].current?.value ?? 0), (1 / pows)) * 100);
+    const values = inputs.current.map((input) => Number(input.current?.value) || 0);
+    if (type === 0) {
+      setResult(values[1] / Math.pow(values[0] / 100, pows));
+    } else if (type === 1) {
+      setResult(Math.pow(values[2] / 100, pows) * values[3]);
+    } else if (type === 2) {
+      setResult(Math.pow(values[4] / values[5], 1 / pows) * 100);
     }
   };
 
-  const heightForm = (ref: React.RefObject<HTMLInputElement>) => {
+  const renderForm = (label: string, ref: React.RefObject<HTMLInputElement>, unit?: string) => {
     return (
       <Form.Group className="mb-3">
-      <Form.Label>身長</Form.Label>
-      <Form.Control ref={ref} type="text" placeholder="身長(cm)を入力" />
+        <Form.Label>{label}</Form.Label>
+        <Form.Control ref={ref} type="text" placeholder={`${label}${unit !== undefined ? `(${unit})` : ""}を入力`} />
       </Form.Group>
-    )
-  }
-
-  const bmiForm = (ref: React.RefObject<HTMLInputElement>) => {
-    return (
-      <Form.Group className="mb-3">
-      <Form.Label>BMI</Form.Label>
-      <Form.Control ref={ref} type="text" placeholder="BMIを入力" />
-      </Form.Group>
-    )
-  }
-
-  const weightForm = (ref: React.RefObject<HTMLInputElement>) => {
-    return (
-      <Form.Group className="mb-3">
-      <Form.Label>体重</Form.Label>
-      <Form.Control ref={ref} type="text" placeholder="体重(kg)を入力" />
-      </Form.Group>
-    )
-  }
-
+    );
+  };
+  
   const tabLists = [
     {
       title: "BMI",
-      compornent: <>
-        {heightForm(inputs.current[0])}
-        {weightForm(inputs.current[1])}
-      </>
+      components: [renderForm("身長", inputs.current[0], "cm"), renderForm("体重", inputs.current[1], "kg")],
     },
     {
       title: "体重",
-      compornent: <>
-        {heightForm(inputs.current[2])}
-        {bmiForm(inputs.current[3])}
-      </>
+      components: [renderForm("身長", inputs.current[2], "cm"), renderForm("BMI", inputs.current[3])],
     },
     {
       title: "身長",
-      compornent: <>
-        {weightForm(inputs.current[4])}
-        {bmiForm(inputs.current[5])}
-      </>
-    }
-  ]
+      components: [renderForm("体重", inputs.current[4], "kg"), renderForm("BMI", inputs.current[5], "cm")],
+    },
+  ];
 
   return (
-    <Tabs
-      defaultActiveKey="0"
-      id="justify-tab-example"
-      className="mb-3"
-      fill
-    >
-      {tabLists.map((value, i) => 
-        <Tab eventKey={i} title={value.title} onClick={() => {setType(i)}} key={i}>
+    <Tabs defaultActiveKey="0" id="justify-tab-example" className="mb-3" fill>
+      {tabLists.map((value, i) => (
+        <Tab eventKey={i} title={value.title} onClick={() => setType(i)} key={i}>
           <Form>
-            {value.compornent}
+            {value.components}
             <Form.Group className="mb-3">
-              <Button as="input" type="button" value="Input" onClick={onButtonClick}/>
+              <Button as="input" type="button" value="Input" onClick={onButtonClick} />
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Control placeholder={result.toString()} disabled/>
+              <Form.Control placeholder={result.toString()} disabled />
             </Form.Group>
           </Form>
         </Tab>
-      )}
+      ))}
     </Tabs>
-  )
+  );
 }
 
 export default BmiCalc;
