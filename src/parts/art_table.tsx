@@ -1,33 +1,25 @@
-import * as React from "react"
+import React, { useState } from "react"
 import { Button, Badge, Form, Col, Row, Figure, Modal, Accordion, Stack } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { center, left } from "../parts/styles"
-import { useState } from "react";
 import Arts from "../data/ai_art_data.json";
-
-interface ArtData {
-  no: number,
-  url: string,
-  prompt: string,
-  tags: string[]
-}
+import ArtData from "./art_data_impl";
+import InfiniteScrollArts from "./infinite_scroll_arts";
 
 const ArtTable = () => {
-  const [selectedItem, setSelectedItem] = useState<object | undefined>(undefined);
   const [filteredArts, setFilteredArts] = useState(Arts.data)
   const [useRegex, setUseRegex] = useState<boolean>(false)
   const [keyword, setKeyword] = useState("");
   const [isRegexInvalid, setIsRegexInvalid] = useState(false);
+  const [showArts, setShowArts] = useState<ArtData[]>([]);
+  const [page, setPage] = useState(0);
 
-  const onOpenDialog = (name: object) => {
-    setSelectedItem(name);
-  }
 
-  const onCloseDialog = () => {
-    setSelectedItem(undefined);
-  }
 
   React.useEffect(() => {
+    setPage(0);
+    setShowArts([]);
+
     let list: string[] = keyword.split(/\s+/)
     let translate = Arts.translations
     //アルファベットの場合、Arts.translationsから翻訳しておく
@@ -93,46 +85,8 @@ const ArtTable = () => {
         <Form.Check onClick={(e) => setUseRegex(Boolean(e.target.checked))} label="正規表現を使う" />
       </Stack>
       <hr />
-
-      <Row xs={2} md={4} className="g-2">
-        {filteredArts.map((art: ArtData, index: number) => {
-        return (
-        <>      
-        <Col key={art.url}>
-          <Figure onClick={() => onOpenDialog(art)} as="p">
-            <Figure.Image src={art.url} />
-          </Figure>
-          <Modal show={art === selectedItem} onHide={onCloseDialog} restoreFocus={false} size="lg">
-          <Modal.Header closeButton onPointerUp={onCloseDialog}>No. {art.no}</Modal.Header>
-          <Modal.Body style={center}>
-            <Figure.Image src={art.url} />
-            <Accordion defaultActiveKey="-1" style={left}>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>プロンプト表示</Accordion.Header>
-              <Accordion.Body>
-                <>
-                  {art.prompt.split(/(\n)/).map((item, index) => {
-                    return (
-                      <React.Fragment key={index}>
-                        { item.match(/\n/) ? <br /> : item }
-                      </React.Fragment>
-                    )
-                  })}
-                </>
-              </Accordion.Body>
-            </Accordion.Item>
-            </Accordion>
-          </Modal.Body>
-          <Modal.Footer onPointerUp={onCloseDialog}>
-            {art.tags.map((tag) => 
-              <Badge bg="primary">{tag}</Badge>
-            )}
-          </Modal.Footer>
-        </Modal>        
-        </Col>
-        </>
-        )})}
-      </Row>
+      
+      <InfiniteScrollArts showArts={showArts} setShowArts={setShowArts} page={page} setPage={setPage} filteredArts={filteredArts}/>
     </>
   )
 }
