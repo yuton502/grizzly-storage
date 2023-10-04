@@ -1,29 +1,35 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useReducer, useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import ArtData from './art_data_impl';
 import { center, left } from './styles';
 import { Row, Col, Figure, Modal, Accordion, Badge } from 'react-bootstrap';
 
-const InfiniteScrollArts = (props: {showArts: ArtData[], setShowArts: any, page: number, setPage: any, filteredArts: ArtData[]}) => {
-  const [selectedItem, setSelectedItem] = useState<object | undefined>(undefined);
+interface Props {
+  showArts: ArtData[];
+  setShowArts: any;
+  page: number;
+  setPage: any;
+  filteredArts: ArtData[];
+}
 
-  const onOpenDialog = (name: object) => {
-    setSelectedItem(name);
-  }
-
-  const onCloseDialog = () => {
-    setSelectedItem(undefined);
-  }
+const InfiniteScrollArts = (props: Props) => {
+  const [selectedDialogItem, dispatchDialog] = useReducer((prev: any, option: { type: string, obj?: object }) => {
+    switch (option.type) {
+      case "open":
+        return option.obj;
+      case "close":
+      default:
+        return undefined;
+    }
+  }, undefined);
 
   const loadImages = () => {
     const newShowArts: ArtData[] = [];
     const showNum = 16;
     for (let i = 0; i < showNum; i++) {
       if (props.page * showNum + i >= props.filteredArts.length) break;
-      
       newShowArts.push(props.filteredArts[props.page * showNum + i]);
     }
-
     props.setShowArts((prevArts: ArtData[]) => [...prevArts, ...newShowArts]);
     props.setPage((prevPage: number) => prevPage + 1);
   };
@@ -38,11 +44,11 @@ const InfiniteScrollArts = (props: {showArts: ArtData[], setShowArts: any, page:
         {props.showArts.map((art: ArtData) => {
         return (
           <Col key={art.no}>
-            <Figure onClick={() => onOpenDialog(art)} as="p">
+            <Figure onClick={() => dispatchDialog({ type: "open", obj: art})} as="p">
               <Figure.Image src={art.url} />
             </Figure>
-            <Modal show={art === selectedItem} onHide={onCloseDialog} restoreFocus={false} size="lg">
-            <Modal.Header closeButton onPointerUp={onCloseDialog}>No. {art.no}</Modal.Header>
+            <Modal show={art === selectedDialogItem} onHide={() => dispatchDialog({ type: "close" })} restoreFocus={false} size="lg">
+            <Modal.Header closeButton onPointerUp={() => dispatchDialog({ type: "close" })}>No. {art.no}</Modal.Header>
             <Modal.Body style={center}>
               <Figure.Image src={art.url} />
               <Accordion defaultActiveKey="-1" style={left}>
@@ -60,9 +66,9 @@ const InfiniteScrollArts = (props: {showArts: ArtData[], setShowArts: any, page:
               </Accordion.Item>
               </Accordion>
             </Modal.Body>
-            <Modal.Footer onPointerUp={onCloseDialog}>
+            <Modal.Footer onPointerUp={() => dispatchDialog({ type: "close" })}>
               {art.tags.map((tag) => 
-                <Badge bg="primary" key={tag}>{tag}</Badge>
+                <Badge bg="primary" key={tag} onPointerUp={(e) => e.stopPropagation()}>{tag}</Badge>
               )}
             </Modal.Footer>
           </Modal>        

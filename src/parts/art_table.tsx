@@ -1,7 +1,6 @@
 import React, { useState } from "react"
-import { Button, Badge, Form, Col, Row, Figure, Modal, Accordion, Stack } from "react-bootstrap";
+import { Button, Form, Stack } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { center, left } from "../parts/styles"
 import Arts from "../data/ai_art_data.json";
 import ArtData from "./art_data_impl";
 import InfiniteScrollArts from "./infinite_scroll_arts";
@@ -13,8 +12,6 @@ const ArtTable = () => {
   const [isRegexInvalid, setIsRegexInvalid] = useState(false);
   const [showArts, setShowArts] = useState<ArtData[]>([]);
   const [page, setPage] = useState(0);
-
-
 
   React.useEffect(() => {
     setPage(0);
