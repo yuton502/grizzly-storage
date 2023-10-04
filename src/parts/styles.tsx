@@ -15,8 +15,16 @@ export const noBreak: React.CSSProperties = {
   marginBottom: "0em",
 }
 
+export const NoBreakP = (props: any) => {
+  return <p style={noBreak}>{props.children}</p>
+}
+
 export const largeBreak: React.CSSProperties = {
   marginBottom: "2em",
+}
+
+export const LargeBreakP = (props: any) => {
+  return <p style={largeBreak}>{props.children}</p>
 }
 
 export const center: React.CSSProperties = {
