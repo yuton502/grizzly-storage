@@ -27,9 +27,9 @@ const Header: React.FC = () => {
               <Nav.Item as="li">
                 <Link to="/info/" className="nav-link ms-2" activeClassName="active">Info</Link>
               </Nav.Item>
-              <Nav.Item as="li">
+              {/* <Nav.Item as="li">
                 <Link to="/ai_art/" className="nav-link ms-2" activeClassName="active">AI Art</Link>
-              </Nav.Item>
+              </Nav.Item> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
