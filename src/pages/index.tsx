@@ -39,7 +39,7 @@ const linkList = [
       </>
   },
   {
-    key: "link11",
+    key: "link2",
     url: "https://bsky.app/profile/yuton502.bsky.social",
     button: <svg xmlns="http://www.w3.org/2000/svg" width="2.2em" height="2.1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565C.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479c.815 2.736 3.713 3.66 6.383 3.364c.136-.02.275-.039.415-.056c-.138.022-.276.04-.415.056c-3.912.58-7.387 2.005-2.83 7.078c5.013 5.19 6.87-1.113 7.823-4.308c.953 3.195 2.05 9.271 7.733 4.308c4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056c2.67.297 5.568-.628 6.383-3.364c.246-.828.624-5.79.624-6.478c0-.69-.139-1.861-.902-2.206c-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"/></svg>,
     text: <>
@@ -55,7 +55,7 @@ const linkList = [
     </>
   },
   {
-    key: "link2",
+    key: "link3",
     url: "https://www.youtube.com/channel/UC9xg0XqDwkZPl4ERET4_wjw?view_as=subscriber",
     button: <SiYoutube size={35}/>,
     text: <>
@@ -67,7 +67,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "link3",
+    key: "link4",
     url: "https://www.nicovideo.jp/user/30385466",
     button: <SiNiconico size={35}/>,
     text: <>
@@ -79,7 +79,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "link4",
+    key: "link5",
     url: "https://www.pixiv.net/member.php?id=12254272",
     button: <SiPixiv size={35}/>,
     text: <>
@@ -91,7 +91,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "link5",
+    key: "link6",
     url: "http://hobbynote-yuton502.blog.jp/",
     button: <GiFeather size={35}/>,
     text: <>
@@ -103,7 +103,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "link6",
+    key: "link7",
     url: "https://github.com/yuton502/",
     button: <SiGithub size={35}/>,
     text: <>
@@ -115,7 +115,7 @@ const linkList = [
       </p></>
   },
   {
-    key: "link7",
+    key: "link8",
     url: "",
     button: <BsBoxArrowUpRight size={35}/>,
     text: <>
