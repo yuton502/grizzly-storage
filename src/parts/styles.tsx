@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const pageStyle: React.CSSProperties = {
   color: "#232129",
   padding: "0%",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontFamily: "Varela Round, Kosugi Maru, -apple-system, sans-serif, serif",
 }
 
 export const changeFont: React.CSSProperties = {

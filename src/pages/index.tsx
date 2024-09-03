@@ -92,15 +92,22 @@ const linkList = [
   },
   {
     key: "link6",
-    url: "http://hobbynote-yuton502.blog.jp/",
+    url: "https://grizzly-storage-blog.pages.dev/",
     button: <GiFeather size={35}/>,
     text: <>
-      <h3>Livedoorブログ</h3>
+      <h3>Grizzly Storage Blog</h3>
       <hr />
       <p>
-        　勢いで始めたブログ。Twitterでは語り尽くせないようなことを記事としてまとめています。<br />
-        　ただ、いかんせん更新頻度がめちゃくちゃ低いです。ほぼ文字だけなので、なんとかなると思ったんですけどね。
-      </p></>
+        　勢いで始めたブログ。Twitterでは語り尽くせないような創作、備忘録などを記事としてまとめています。<br />
+        　2024/09を以って新設したので、今回はさらに自由に書いていきたいと考えています。
+      </p>
+      <p>
+        　以前のLivedoorブログの方は以下のリンクからご覧になってください。
+      </p>
+      <ul>
+        <li><a href="http://hobbynote-yuton502.blog.jp/">Livedoorブログ</a></li>
+      </ul>
+      </>
   },
   {
     key: "link7",

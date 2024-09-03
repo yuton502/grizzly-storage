@@ -16,7 +16,8 @@ const textOnImage: React.CSSProperties = {
 const Header: React.FC = () => {
   return (
     <header className="bg-black" style={textOnImage}>
-      <Container style={pageStyle}>
+      <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Kosugi+Maru&family=M+PLUS+Rounded+1c:wght@500&family=Varela+Round&display=swap" rel="stylesheet"></link>
+      <Container style={pageStyle} className="bg-black">
         <Navbar expand="md" variant="dark">
           <Navbar.Toggle aria-controls="navbarResponsive"  className="ms-auto"/>
           <Navbar.Collapse id="navbarResponsive">
